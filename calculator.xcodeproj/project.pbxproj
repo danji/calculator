@@ -21,6 +21,7 @@
 		3647129914FF6B64008864E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3647127714FF6B64008864E7 /* Foundation.framework */; };
 		364712A114FF6B64008864E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3647129F14FF6B64008864E7 /* InfoPlist.strings */; };
 		364712A414FF6B64008864E7 /* calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364712A314FF6B64008864E7 /* calculatorTests.m */; };
+		364712AF14FF7401008864E7 /* calculateBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 364712AE14FF7401008864E7 /* calculateBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,24 @@
 		3647127514FF6B64008864E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3647127714FF6B64008864E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3647127914FF6B64008864E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3647127D14FF6B64008864E7 /* calculator-Info.plist */ = {isa = PBXFileReference; path = "calculator-Info.plist"; sourceTree = "<group>"; };
+		3647127D14FF6B64008864E7 /* calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "calculator-Info.plist"; sourceTree = "<group>"; };
 		3647127F14FF6B64008864E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3647128114FF6B64008864E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3647128314FF6B64008864E7 /* calculator-Prefix.pch */ = {isa = PBXFileReference; path = "calculator-Prefix.pch"; sourceTree = "<group>"; };
-		3647128414FF6B64008864E7 /* HankAppDelegate.h */ = {isa = PBXFileReference; path = HankAppDelegate.h; sourceTree = "<group>"; };
+		3647128314FF6B64008864E7 /* calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "calculator-Prefix.pch"; sourceTree = "<group>"; };
+		3647128414FF6B64008864E7 /* HankAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HankAppDelegate.h; sourceTree = "<group>"; };
 		3647128514FF6B64008864E7 /* HankAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HankAppDelegate.m; sourceTree = "<group>"; };
 		3647128814FF6B64008864E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3647128B14FF6B64008864E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3647128D14FF6B64008864E7 /* HankViewController.h */ = {isa = PBXFileReference; path = HankViewController.h; sourceTree = "<group>"; };
+		3647128D14FF6B64008864E7 /* HankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HankViewController.h; sourceTree = "<group>"; };
 		3647128E14FF6B64008864E7 /* HankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HankViewController.m; sourceTree = "<group>"; };
 		3647129514FF6B64008864E7 /* calculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3647129614FF6B64008864E7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3647129E14FF6B64008864E7 /* calculatorTests-Info.plist */ = {isa = PBXFileReference; path = "calculatorTests-Info.plist"; sourceTree = "<group>"; };
+		3647129E14FF6B64008864E7 /* calculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "calculatorTests-Info.plist"; sourceTree = "<group>"; };
 		364712A014FF6B64008864E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		364712A214FF6B64008864E7 /* calculatorTests.h */ = {isa = PBXFileReference; path = calculatorTests.h; sourceTree = "<group>"; };
+		364712A214FF6B64008864E7 /* calculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculatorTests.h; sourceTree = "<group>"; };
 		364712A314FF6B64008864E7 /* calculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculatorTests.m; sourceTree = "<group>"; };
+		364712AD14FF7401008864E7 /* calculateBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calculateBrain.h; sourceTree = "<group>"; };
+		364712AE14FF7401008864E7 /* calculateBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calculateBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				3647128D14FF6B64008864E7 /* HankViewController.h */,
 				3647128E14FF6B64008864E7 /* HankViewController.m */,
 				3647127C14FF6B64008864E7 /* Supporting Files */,
+				364712AD14FF7401008864E7 /* calculateBrain.h */,
+				364712AE14FF7401008864E7 /* calculateBrain.m */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				3647128214FF6B64008864E7 /* main.m in Sources */,
 				3647128614FF6B64008864E7 /* HankAppDelegate.m in Sources */,
 				3647128F14FF6B64008864E7 /* HankViewController.m in Sources */,
+				364712AF14FF7401008864E7 /* calculateBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

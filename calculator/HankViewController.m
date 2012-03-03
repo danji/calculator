@@ -7,58 +7,48 @@
 //
 
 #import "HankViewController.h"
+#import "calculateBrain.h"
+
+
+@interface HankViewController()
+@property (nonatomic) BOOL hasEnterNumber;
+@property (nonatomic, strong) calculateBrain *brain;
+@end
 
 @implementation HankViewController
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
+@synthesize display=_display;
+@synthesize hasEnterNumber= _hasEnterNumber;
+@synthesize brain=_brain;
+
+-(calculateBrain *) brain{
+    if(!_brain) _brain=[[calculateBrain alloc] init];
+    return _brain;
 }
 
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (IBAction)operationClicked:(UIButton *)sender {
+    self.display.text = [NSString stringWithFormat:@"%g", [self.brain performOperation:[sender currentTitle]]];
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
+- (IBAction)numberClicked:(UIButton *)sender {
+    if (!self.hasEnterNumber) {
+        self.display.text = sender.currentTitle;
+        self.hasEnterNumber = YES;
+    }else{
+        self.display.text = [self.display.text stringByAppendingFormat: sender.currentTitle];
     }
+    
+    //[self.brain pushOperand: [sender.currentTitle doubleValue]];
+}
+
+- (IBAction)enterClicked {
+    [self.brain pushOperand: [self.display.text doubleValue]]; 
+    self.hasEnterNumber = NO;
+}
+
+- (IBAction)clearClicked {
+    self.display.text = [NSString stringWithFormat:@"0"];
+    self.hasEnterNumber = NO;
 }
 
 @end

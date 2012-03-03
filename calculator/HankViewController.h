@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface HankViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *display;
+
 
 @end
