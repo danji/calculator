@@ -38,6 +38,7 @@
         self.display.text = [self.display.text stringByAppendingFormat: sender.currentTitle];
     }
     
+    //NSLog(@"%@", sender.currentTitle);
     //[self.brain pushOperand: [sender.currentTitle doubleValue]];
 }
 
