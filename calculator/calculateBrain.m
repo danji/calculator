@@ -38,7 +38,9 @@
     }
     
     if ([operation isEqualToString:@"-"]){
-        result = [self popOperand] - [self popOperand];
+        double subtranhend;
+        subtranhend = [self popOperand];
+        result = [self popOperand] - subtranhend;
     }
     
     if ([operation isEqualToString:@"*"]){
