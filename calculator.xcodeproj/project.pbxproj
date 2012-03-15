@@ -122,9 +122,9 @@
 				3647128A14FF6B64008864E7 /* MainStoryboard_iPad.storyboard */,
 				3647128D14FF6B64008864E7 /* HankViewController.h */,
 				3647128E14FF6B64008864E7 /* HankViewController.m */,
-				3647127C14FF6B64008864E7 /* Supporting Files */,
 				364712AD14FF7401008864E7 /* calculateBrain.h */,
 				364712AE14FF7401008864E7 /* calculateBrain.m */,
+				3647127C14FF6B64008864E7 /* Supporting Files */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -449,6 +449,7 @@
 				364712A914FF6B64008864E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		364712AA14FF6B64008864E7 /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +458,7 @@
 				364712AC14FF6B64008864E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

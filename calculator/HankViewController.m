@@ -9,17 +9,19 @@
 #import "HankViewController.h"
 #import "calculateBrain.h"
 
-
 @interface HankViewController()
 @property (nonatomic) BOOL hasEnterNumber;
+@property (nonatomic) BOOL isFloatNumber;
 @property (nonatomic, strong) calculateBrain *brain;
 @end
 
 @implementation HankViewController
 
 @synthesize display=_display;
+@synthesize displayAll = _displayAll;
 @synthesize hasEnterNumber= _hasEnterNumber;
 @synthesize brain=_brain;
+@synthesize isFloatNumber=_isFloatNumber;
 
 -(calculateBrain *) brain{
     if(!_brain) _brain=[[calculateBrain alloc] init];
@@ -31,13 +33,24 @@
 }
 
 - (IBAction)numberClicked:(UIButton *)sender {
-    if (!self.hasEnterNumber) {
-        self.display.text = sender.currentTitle;
-        self.hasEnterNumber = YES;
+    if ([sender.currentTitle isEqualToString:@"."]) {
+        if (!self.isFloatNumber) {
+            if (!self.hasEnterNumber) {
+                self.display.text = sender.currentTitle;
+                self.hasEnterNumber = YES;
+            }else{
+                self.display.text = [self.display.text stringByAppendingFormat: sender.currentTitle];
+            }   
+            self.isFloatNumber = YES;
+        }
     }else{
-        self.display.text = [self.display.text stringByAppendingFormat: sender.currentTitle];
+        if (!self.hasEnterNumber) {
+            self.display.text = sender.currentTitle;
+            self.hasEnterNumber = YES;
+        }else{
+            self.display.text = [self.display.text stringByAppendingFormat: sender.currentTitle];
+        }   
     }
-    
     //NSLog(@"%@", sender.currentTitle);
     //[self.brain pushOperand: [sender.currentTitle doubleValue]];
 }
@@ -48,8 +61,14 @@
 }
 
 - (IBAction)clearClicked {
+    // fixme later, here should be written as init
     self.display.text = [NSString stringWithFormat:@"0"];
     self.hasEnterNumber = NO;
+    self.isFloatNumber = NO;
 }
 
+- (void)viewDidUnload {
+    [self setDisplayAll:nil];
+    [super viewDidUnload];
+}
 @end

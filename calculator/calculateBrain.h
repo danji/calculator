@@ -12,5 +12,5 @@
 
 -(void) pushOperand: (double) operand;
 -(double) performOperation: (NSString *)operation;
-
+-(NSString*) getCalculateHistory;
 @end
