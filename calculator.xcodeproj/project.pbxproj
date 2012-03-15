@@ -22,6 +22,7 @@
 		364712A114FF6B64008864E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3647129F14FF6B64008864E7 /* InfoPlist.strings */; };
 		364712A414FF6B64008864E7 /* calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364712A314FF6B64008864E7 /* calculatorTests.m */; };
 		364712AF14FF7401008864E7 /* calculateBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 364712AE14FF7401008864E7 /* calculateBrain.m */; };
+		367A0A5D151226A200CE2E64 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 367A0A5C151226A200CE2E64 /* README.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		364712A314FF6B64008864E7 /* calculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculatorTests.m; sourceTree = "<group>"; };
 		364712AD14FF7401008864E7 /* calculateBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calculateBrain.h; sourceTree = "<group>"; };
 		364712AE14FF7401008864E7 /* calculateBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calculateBrain.m; sourceTree = "<group>"; };
+		367A0A5C151226A200CE2E64 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				364712AD14FF7401008864E7 /* calculateBrain.h */,
 				364712AE14FF7401008864E7 /* calculateBrain.m */,
 				3647127C14FF6B64008864E7 /* Supporting Files */,
+				367A0A5C151226A200CE2E64 /* README.rtf */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				3647128014FF6B64008864E7 /* InfoPlist.strings in Resources */,
 				3647128914FF6B64008864E7 /* MainStoryboard_iPhone.storyboard in Resources */,
 				3647128C14FF6B64008864E7 /* MainStoryboard_iPad.storyboard in Resources */,
+				367A0A5D151226A200CE2E64 /* README.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
