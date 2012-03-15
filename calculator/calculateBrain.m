@@ -73,6 +73,10 @@ double const PI=3.14159;
         }
     }
     
+    if ([operation isEqualToString:@"π"]){
+        result = PI;
+    }
+    
     if ([operation isEqualToString:@"sin"]){
         double operand;
         operand = [self popOperand];

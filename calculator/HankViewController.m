@@ -28,7 +28,15 @@
     return _brain;
 }
 
+- (IBAction)enterClicked {
+    [self.brain pushOperand: [self.display.text doubleValue]]; 
+    self.hasEnterNumber = NO;
+}
+
 - (IBAction)operationClicked:(UIButton *)sender {
+    if (self.hasEnterNumber) {
+        [self enterClicked];
+    }
     self.display.text = [NSString stringWithFormat:@"%g", [self.brain performOperation:[sender currentTitle]]];
 }
 
@@ -36,7 +44,7 @@
     if ([sender.currentTitle isEqualToString:@"."]) {
         if (!self.isFloatNumber) {
             if (!self.hasEnterNumber) {
-                self.display.text = sender.currentTitle;
+                self.display.text = [NSString stringWithFormat:@"0."];
                 self.hasEnterNumber = YES;
             }else{
                 self.display.text = [self.display.text stringByAppendingFormat: sender.currentTitle];
@@ -45,8 +53,10 @@
         }
     }else{
         if (!self.hasEnterNumber) {
-            self.display.text = sender.currentTitle;
-            self.hasEnterNumber = YES;
+            if (![sender.currentTitle isEqualToString:@"0"]) {
+                self.display.text = sender.currentTitle;
+                self.hasEnterNumber = YES;
+            }
         }else{
             self.display.text = [self.display.text stringByAppendingFormat: sender.currentTitle];
         }   
@@ -55,13 +65,8 @@
     //[self.brain pushOperand: [sender.currentTitle doubleValue]];
 }
 
-- (IBAction)enterClicked {
-    [self.brain pushOperand: [self.display.text doubleValue]]; 
-    self.hasEnterNumber = NO;
-}
-
 - (IBAction)clearClicked {
-    // fixme later, here should be written as init
+    // fixme later, here should be written as init in addition, it should be written in brain
     self.display.text = [NSString stringWithFormat:@"0"];
     self.hasEnterNumber = NO;
     self.isFloatNumber = NO;
