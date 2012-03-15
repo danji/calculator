@@ -1,0 +1,284 @@
+Tcalculator
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/Info.plist calculator/calculator-Info.plist
+cProcessPCH /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch.pth calculator/calculator-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/main.o /Users/hank/Development/iOS/calculator/calculator/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankAppDelegate.o /Users/hank/Development/iOS/calculator/calculator/HankAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/calculateBrain.o /Users/hank/Development/iOS/calculator/calculator/calculateBrain.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankViewController.o /Users/hank/Development/iOS/calculator/calculator/HankViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator normal i386
+cGenerateDSYMFile /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app.dSYM /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator
+cCopyStringsFile /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/en.lproj/InfoPlist.strings calculator/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPad.storyboard
+cTouch /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004ED7BC210000000000000110
+t1322761249
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankAppDelegate.o
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankViewController.o
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/calculateBrain.o
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/calculator.LinkFileList
+c000000004F561E3800000000000002BF
+t1331043896
+s703
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch.pth
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app.dSYM
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/Info.plist
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/PkgInfo
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/hank/Development/iOS/calculator/calculator/HankAppDelegate.m
+c000000004F4F33E4000000000000084D
+t1330590692
+s2125
+
+N/Users/hank/Development/iOS/calculator/calculator/HankViewController.m
+c000000004F4F60EA000000000000053F
+t1330602218
+s1343
+
+N/Users/hank/Development/iOS/calculator/calculator/calculateBrain.m
+c000000004F4F646100000000000005C5
+t1330603105
+s1477
+
+N/Users/hank/Development/iOS/calculator/calculator/calculator-Prefix.pch
+c000000004F4F33E40000000000000143
+t1330590692
+s323
+
+N/Users/hank/Development/iOS/calculator/calculator/en.lproj/InfoPlist.strings
+c000000004F4F33E4000000000000002D
+t1330590692
+s45
+
+N/Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPad.storyboard
+c000000004F4F33E40000000000000649
+t1330590692
+s1609
+
+N/Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004F4F496F00000000000064D2
+t1330596207
+s25810
+
+N/Users/hank/Development/iOS/calculator/calculator/main.m
+c000000004F4F33E4000000000000015C
+t1330590692
+s348
+
+Ncalculator/calculator-Info.plist
+c000000004F4F33E40000000000000672
+t1330590692
+s1650
+
+CBuild AST from /Users/hank/Development/iOS/calculator/calculator/HankAppDelegate.m
+r0
+
+CBuild AST from /Users/hank/Development/iOS/calculator/calculator/HankViewController.m
+r0
+
+CBuild AST from /Users/hank/Development/iOS/calculator/calculator/calculateBrain.m
+r0
+
+CBuild AST from /Users/hank/Development/iOS/calculator/calculator/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd4d777b85506b541^613691b85506b541^---0#1#0#--18"Check dependencies36"2DC9E2FE-2116-4A1E-8F63-287EE6F66F44-
+
+CCompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankAppDelegate.o /Users/hank/Development/iOS/calculator/calculator/HankAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352736699.334796
+e352736699.609529
+r1
+xCompileC
+xDerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankAppDelegate.o
+x/Users/hank/Development/iOS/calculator/calculator/HankAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/hank/Development/iOS/calculator/calculator/HankAppDelegate.m57ea55bb5506b541^280a9cbb5506b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/hank/Development/iOS/calculator/calculator/HankAppDelegate.m0000000000000000^3202"CompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankAppDelegate.o calculator/HankAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hank/Development/iOS/calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-generated-files.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-own-target-headers.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-all-target-headers.hmap -iquote /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-project-headers.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/include -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/DerivedSources/i386 -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/DerivedSources -F/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch -MMD -MT dependencies -MF /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankAppDelegate.d -c /Users/hank/Development/iOS/calculator/calculator/HankAppDelegate.m -o /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankAppDelegate.o36"E61FBEEA-4825-4B1C-8A38-8BC3B536E095-
+
+CCompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankViewController.o /Users/hank/Development/iOS/calculator/calculator/HankViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352736699.334845
+e352736699.619822
+r1
+xCompileC
+xDerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankViewController.o
+x/Users/hank/Development/iOS/calculator/calculator/HankViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/hank/Development/iOS/calculator/calculator/HankViewController.mb6f355bb5506b541^b8ac9ebb5506b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/hank/Development/iOS/calculator/calculator/HankViewController.m0000000000000000^3217"CompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankViewController.o calculator/HankViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hank/Development/iOS/calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-generated-files.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-own-target-headers.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-all-target-headers.hmap -iquote /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-project-headers.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/include -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/DerivedSources/i386 -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/DerivedSources -F/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch -MMD -MT dependencies -MF /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankViewController.d -c /Users/hank/Development/iOS/calculator/calculator/HankViewController.m -o /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/HankViewController.o36"167BB39A-AE0A-4DFD-9704-4E41181C4E2A-
+
+CCompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/calculateBrain.o /Users/hank/Development/iOS/calculator/calculator/calculateBrain.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352736699.334820
+e352736699.613283
+r1
+xCompileC
+xDerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/calculateBrain.o
+x/Users/hank/Development/iOS/calculator/calculator/calculateBrain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/hank/Development/iOS/calculator/calculator/calculateBrain.m8df155bb5506b541^b9ff9cbb5506b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/hank/Development/iOS/calculator/calculator/calculateBrain.m0000000000000000^3197"CompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/calculateBrain.o calculator/calculateBrain.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hank/Development/iOS/calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-generated-files.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-own-target-headers.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-all-target-headers.hmap -iquote /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-project-headers.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/include -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/DerivedSources/i386 -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/DerivedSources -F/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch -MMD -MT dependencies -MF /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/calculateBrain.d -c /Users/hank/Development/iOS/calculator/calculator/calculateBrain.m -o /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/calculateBrain.o36"C03D4E2B-C91A-4490-9DFE-9CFD46E09561-
+
+CCompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/main.o /Users/hank/Development/iOS/calculator/calculator/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352736699.334616
+e352736699.604915
+r1
+xCompileC
+xDerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/main.o
+x/Users/hank/Development/iOS/calculator/calculator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/hank/Development/iOS/calculator/calculator/main.mf4e155bb5506b541^0adc9abb5506b541^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/hank/Development/iOS/calculator/calculator/main.m0000000000000000^3147"CompileC DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/main.o calculator/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hank/Development/iOS/calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-generated-files.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-own-target-headers.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-all-target-headers.hmap -iquote /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-project-headers.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/include -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/DerivedSources/i386 -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/DerivedSources -F/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch -MMD -MT dependencies -MF /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/main.d -c /Users/hank/Development/iOS/calculator/calculator/main.m -o /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/main.o36"22751798-FF1B-4B70-BB43-1D0AC5FD4618-
+
+CCompileStoryboard /Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPad.storyboard
+s352736700.329347
+e352736704.833004
+r1
+xCompileStoryboard
+x/Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPad.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard calculator/en.lproj/MainStoryboard_iPad.storyboard7a6f54bc5506b541^1440d5c05506b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^797"CompileStoryboard calculator/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/hank/Development/iOS/calculator    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPad.storyboard --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"E9445926-4343-421B-9435-2AF9AE920E94-
+
+CCompileStoryboard /Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPhone.storyboard
+s352736700.329312
+e352736705.014245
+r1
+xCompileStoryboard
+x/Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CompileStoryboard calculator/en.lproj/MainStoryboard_iPhone.storyboarda87054bc5506b541^8ba603c15506b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^803"CompileStoryboard calculator/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/hank/Development/iOS/calculator    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/hank/Development/iOS/calculator/calculator/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"6DEADE3A-2822-40FA-BE64-33FD0470C32B-
+
+CCopyStringsFile /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/en.lproj/InfoPlist.strings calculator/en.lproj/InfoPlist.strings
+s352736700.328814
+e352736700.371558
+r1
+xCopyStringsFile
+x/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/en.lproj/InfoPlist.strings
+xcalculator/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy calculator/en.lproj/InfoPlist.stringsb95154bc5506b541^f71d5fbc5506b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/hank/Development/iOS/calculator/calculator/en.lproj/InfoPlist.strings0000000000000000^591"CopyStringsFile DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/en.lproj/InfoPlist.strings calculator/en.lproj/InfoPlist.strings    cd /Users/hank/Development/iOS/calculator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/en.lproj -- calculator/en.lproj/InfoPlist.strings36"C867E045-C7A2-407D-89DF-4E392D2CAA1E-
+
+CGenerateDSYMFile /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app.dSYM /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator
+s352736700.199095
+e352736700.319633
+r1
+xGenerateDSYMFile
+x/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app.dSYM
+x/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Generating /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app.dSYM060f33bc5506b541^67d351bc5506b541^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app.dSYM00f46c93dcffdf42^647"GenerateDSYMFile DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app.dSYM DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator    cd /Users/hank/Development/iOS/calculator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator -o /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app.dSYM36"157F513A-B0CD-4A7F-99BA-2B1702D7DBC8-
+
+CLd /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator normal i386
+s352736699.626695
+e352736700.191377
+r1
+xLd
+x/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Link /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculatore99ba0bb5506b541^37fe30bc5506b541^---0#0#0#--1238"Ld DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator normal i386    cd /Users/hank/Development/iOS/calculator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator -F/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator -filelist /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/Objects-normal/i386/calculator.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/calculator36"1EFC2F5C-4266-49DE-BC75-0ED9BA5AE184-
+
+CProcessInfoPlistFile /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/Info.plist calculator/calculator-Info.plist
+s352736696.615433
+e352736696.621223
+r1
+xProcessInfoPlistFile
+x/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/Info.plist
+xcalculator/calculator-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process calculator/calculator-Info.plist5fd19db85506b541^9370a1b85506b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/hank/Development/iOS/calculator/calculator/calculator-Info.plist0000000000000000^709"ProcessInfoPlistFile DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/Info.plist calculator/calculator-Info.plist    cd /Users/hank/Development/iOS/calculator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility calculator/calculator-Info.plist -genpkginfo /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app/Info.plist36"6CF55905-82B3-43A4-9EA1-6C959D25FE98-
+
+CProcessPCH /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch.pth calculator/calculator-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352736696.628674
+e352736699.326870
+r1
+xProcessPCH
+x/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch.pth
+xcalculator/calculator-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile calculator/calculator-Prefix.pch7b15a1b85506b541^36ae53bb5506b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/hank/Development/iOS/calculator/calculator/calculator-Prefix.pch0000000000000000^2998"ProcessPCH DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch.pth calculator/calculator-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hank/Development/iOS/calculator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-generated-files.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-own-target-headers.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-all-target-headers.hmap -iquote /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/calculator-project-headers.hmap -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/include -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/DerivedSources/i386 -I/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Intermediates/calculator.build/Release-iphonesimulator/calculator.build/DerivedSources -F/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -c /Users/hank/Development/iOS/calculator/calculator/calculator-Prefix.pch -o /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch.pth -MMD -MT dependencies -MF /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/PrecompiledHeaders/calculator-Prefix-glgwzgqzduzujwdjbeczsivdlcet/calculator-Prefix.pch.d36"B5770B04-6402-4F0D-814A-B0DABCA9040D-
+
+CProcessPCH /Users/hank/Development/iOS/calculator/DerivedData/calculator/Index/PrecompiledHeaders/calculator-Prefix-alerxhqspsoxifhjiqqwpdbdnira_ast/calculator-Prefix.pch.pth calculator/calculator-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app
+s352736705.022209
+e352736705.057206
+r1
+xTouch
+x/Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Touch /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app05c305c15506b541^41d30ec15506b541^---0#0#0#--398"Touch DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app    cd /Users/hank/Development/iOS/calculator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/hank/Development/iOS/calculator/DerivedData/calculator/Build/Products/Release-iphonesimulator/calculator.app36"03AE84B7-952B-42F0-9547-B116D9723C1C-
+
